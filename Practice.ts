@@ -27,13 +27,13 @@ console.log(greet("Asmita"));
 
 //with type inference
 
-function add(a: number , b : number){
+function add2(a: number , b : number){
 
     return a + b;
 }
 
-add(4, 2)
-console.log(add(4, 2));
+add2(4, 2)
+console.log(add2(4, 2));
 
 //object literal inference
 
