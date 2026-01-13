@@ -16,13 +16,13 @@ console.log(sentence);
 
 //explicit type 
 
-function greet(name: string): string{
+function greet1(name: string): string{
 
     return `Hello, ${name}`
 }
 
-greet("Asmita")
-console.log(greet("Asmita"));
+greet1("Asmita")
+console.log(greet1("Asmita"));
 //greet(23) 
 
 //with type inference

@@ -135,7 +135,7 @@ printStatusCode("404");
 
 //how to marks optinal parameter 
 
-function add(a: number , b : number, c?: number){
+function add1(a: number , b : number, c?: number){
     return a + b + (c || 0);
 }
 
